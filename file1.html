@@ -1,0 +1,21 @@
+<html>
+<head>
+<link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+</head>
+<body>
+<script>function hover(element) {
+  element.setAttribute('src', "star-on-big.png");
+}
+function unhover(element) {
+	  element.setAttribute('src', "star-off-big.png");
+	}
+</script>
+<form action="p2.jsp">
+<input type="image" src="star-off-big.png" name="rate" alt="Submit" onmouseover="hover(this);" onmouseout="unhover(this);" value=1 >
+<input type="image" src="star-off-big.png" name="rate" alt="Submit" onmouseover="hover(this);" onmouseout="unhover(this);" value=2>
+<input type="image" src="star-off-big.png" name="rate" alt="Submit" onmouseover="hover(this);" onmouseout="unhover(this);" value=3>
+<input type="image" src="star-off-big.png" name="rate" alt="Submit" onmouseover="hover(this);" onmouseout="unhover(this);" value=4>
+<input type="image" src="star-off-big.png" name="rate" alt="Submit" onmouseover="hover(this);" onmouseout="unhover(this);" value=5>
+</form>
+
+</body></html>
